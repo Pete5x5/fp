@@ -44,13 +44,26 @@
         </a>
       </div>
       <div class="nav-right navbar">
-        <p class="my-a no-wrap headerPhone">
+        <a class="my-a no-wrap headerPhone phone" href="tel:9055269622">
           <span>(905) 526-9622</span>
-        </p> 
+        </a> 
         <div class="last-header my-a mx-0">
-          <a class="button primary mx-0 no-wrap header-button" href="/menu">Menu</a>
+          <a class="button primary mx-0 no-wrap header-button" onclick="toggleMenu()">Menu</a>
         </div>
       </div>
+      <div class="nav-links">
+        <div class="close-button" onclick="toggleMenu()">&times;</div>
+        <a class="nav-link" href="/menu">Menu</a>
+        <a class="nav-link" href="/drinks">Drinks</a>
+        <a class="nav-link" href="/gallery">Gallery</a>
+        <a class="nav-link" href="/location">Location</a>
+        <hr class="divider">
+        <div class="info-section">
+            <p>Call to reserve</p>
+            <a class="phone-number phone" href="tel:9055269622">(905) 526-9622</a>
+        </div>
+    </div>
+</div>
     </nav>
     <script>
       function toggleMenu() {
@@ -67,7 +80,7 @@
     <footer class="mx-a p-0 row">
         <p class="m-a p-a col-4">Fishers Pier 4 Pub</p>
         <p class="m-a p-a col-4">554 James St N, Hamilton, ON</p>
-        <p class="m-a p-a col-4">(905)-526-9622</p>
+        <a class="m-a p-a col-4 phone" href="tel:9055269622">(905)-526-9622</a>
     </footer>
   </body>
 </html>

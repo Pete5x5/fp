@@ -277,6 +277,7 @@ iframe {
   --shadow-color: 220deg 5% 56%;
   --font-color: var(--gray9);
   --font-invert: var(--gray1);
+  --hover-color: var(--yellow-700);
   --logo-title: var(--gray9);
   --logo-odd: var(--gray9);
   --logo-even: var(--gray7);
@@ -284,7 +285,7 @@ iframe {
   --outline0: var(--gray5);
   --outline1: var(--gray5);
   --outline2: var(--gray7);
-  --color-primary: var(--blue-700);
+  --color-primary: var(--red-700);
 
   --shadow1: 0.3px 0.5px 0.6px hsl(var(--shadow-color) / 0.48),
     0.8px 1.5px 1.8px -1px hsl(var(--shadow-color) / 0.44),
@@ -498,6 +499,13 @@ body {
   transition: background 1s;
 }
 
+a {
+  color: var(--font-color);
+  &:hover {
+    color: var(--hover-color);
+  }
+}
+
 // ^^^ GLOBAL VARIABLES ^^^ //
 // vvv LOGO vvv //
 .Logo1 svg {
@@ -510,7 +518,7 @@ body {
 }
 
 .svgPier {
-  fill: var(--red-500);
+  fill: var(--font-color);
 }
 // ^^^ LOGO ^^^ //
 // vvv GLOBAL STYLES vvv //
@@ -585,13 +593,16 @@ body {
 
 .nav p {
   color: var(--font-color);
-  padding-right: 24px;
+  // padding-right: 24px;
 }
 
 .home-header {
   margin-top: 10px;
-  min-height: 8rem;
-  max-height: 10rem;
+  height: 100px;
+  flex-direction: row;
+  & .headerPhone {
+    font-weight: bold;
+  }
 }
 
 .last-header {
@@ -615,6 +626,10 @@ body {
   margin-right: 1rem;
 }
 
+.nav-right {
+  justify-content: flex-end;
+}
+
 .homeSplash {
   width: 100%;
   height: 100%;
@@ -624,15 +639,17 @@ body {
   flex-direction: column;
   flex-grow: 1;
   justify-content: center;
-  background-image: url("../public/tires2-1500w.jpg");
+  background-image: url("../public/burger1.webp");
   background-clip: padding-box;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: right 0;
 }
 .splashText {
   font-weight: bold;
   color: white;
-  font-size: 5vw;
+  font-size: clamp(5rem, 10vw, 6rem);
+  background-color: #0008;
 }
 .topDivide {
   padding-bottom: 0;
@@ -658,20 +675,21 @@ footer {
   right: -100%;
   width: 250px;
   height: 100%;
-  background-color: white;
+  background-color: var(--bg-color);
+  border-left: var(--color-primary) 24px solid;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 1rem;
-  gap: 1rem;
+  gap: 3rem;
   transition: all 0.3s ease;
 }
 
 .close-button {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 1.5rem;
+  top: 20px;
+  right: 20px;
+  font-size: 5rem;
   cursor: pointer;
 }
 
@@ -679,10 +697,65 @@ footer {
   right: 0;
 }
 
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 2.4rem;
+  font-weight: bold;
+  &:first-of-type {
+    margin-top: 8rem;
+  }
+}
+
+.divider {
+  width: 100%;
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 1rem 0;
+}
+
+.info-section {
+  text-align: center;
+}
+
+.phone-number {
+  font-weight: bold;
+}
+
 // vvv MEDIA QUERIES vvv //
 @media (max-width: 768px) {
   .home-header .headerPhone {
     display: none !important;
+  }
+}
+
+@media (max-width: 598px) {
+  footer {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .Logo1 {
+    max-width: 60vw;
+  }
+}
+
+@media (max-width: 280px) {
+  .Logo1 {
+    max-width: 50vw;
+  }
+}
+
+@media (max-height: 549px) {
+  .nav-links {
+    gap: 0;
+  }
+  .nav-link:first-of-type {
+    margin-top: 0;
+  }
+  .close-button {
+    top: -8px;
   }
 }
 // ^^^ MEDIA QUERIES ^^^ //
