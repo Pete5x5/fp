@@ -271,14 +271,8 @@ iframe {
   --grid-maxWidth: 120rem;
   --grid-gutter: 2rem;
   --font-size: 1.6rem;
-  --font-family-sans: "Inter", sans-serif;
+  --font-family-sans: "Lora", sans-serif;
   --font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
-  --shadow1: 0.3px 0.5px 0.6px hsl(var(--shadow-color) / 0.48),
-    0.8px 1.5px 1.8px -1px hsl(var(--shadow-color) / 0.44),
-    2.1px 4.1px 4.8px -2px hsl(var(--shadow-color) / 0.4),
-    5.3px 10.5px 12.3px -3px hsl(var(--shadow-color) / 0.36);
-}
-:root, :root[data-theme=light] {
   --bg-color: var(--gray1);
   --bg-secondary-color: var(--gray2);
   --shadow-color: 220deg 5% 56%;
@@ -292,101 +286,82 @@ iframe {
   --outline1: var(--gray5);
   --outline2: var(--gray7);
   --color-primary: var(--blue-700);
-}
-:root[data-theme=dark] {
-  --bg-color: var(--gray9);
-  --bg-secondary-color: var(--gray8);
-  --shadow-color: 221deg 63% 2%;
-  --font-color: var(--gray1);
-  --font-invert: var(--gray9);
-  --logo-title: var(--gray1);
-  --logo-odd: var(--gray1);
-  --logo-even: var(--gray3);
-  --logo-discount: var(--rose-500);
-  --outline0: var(--gray4);
-  --outline1: var(--gray7);
-  --outline2: var(--gray6);
-  --color-primary: var(--blue-600);
+  --shadow1: 0.3px 0.5px 0.6px hsl(var(--shadow-color) / 0.48),
+    0.8px 1.5px 1.8px -1px hsl(var(--shadow-color) / 0.44),
+    2.1px 4.1px 4.8px -2px hsl(var(--shadow-color) / 0.4),
+    5.3px 10.5px 12.3px -3px hsl(var(--shadow-color) / 0.36);
 }
 
 @font-face {
   font-family: "icomoon";
-  src: url("fonts/icomoon.eot?14eq91");
-  src: url("fonts/icomoon.eot?14eq91#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?14eq91") format("truetype"), url("fonts/icomoon.woff?14eq91") format("woff"), url("fonts/icomoon.svg?14eq91#icomoon") format("svg");
+  src: url("fonts/icomoon.eot?fvr8pr");
+  src: url("fonts/icomoon.eot?fvr8pr#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?fvr8pr") format("truetype"), url("fonts/icomoon.woff?fvr8pr") format("woff"), url("fonts/icomoon.svg?fvr8pr#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 @font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 100;
+  font-family: "Lora";
+  font-style: italic;
+  font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v12/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/lora/v32/0QIhMX1D_JOuMw_LIftL.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 @font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 200;
+  font-family: "Lora";
+  font-style: italic;
+  font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v12/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/lora/v32/0QIhMX1D_JOuMw_LIftL.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 @font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 300;
+  font-family: "Lora";
+  font-style: italic;
+  font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v12/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/lora/v32/0QIhMX1D_JOuMw_LIftL.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 @font-face {
-  font-family: "Inter";
+  font-family: "Lora";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lora/v32/0QIhMX1D_JOuMw_LIftL.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Lora";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v12/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/lora/v32/0QIvMX1D_JOuMwr7Iw.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 @font-face {
-  font-family: "Inter";
+  font-family: "Lora";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v12/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/lora/v32/0QIvMX1D_JOuMwr7Iw.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 @font-face {
-  font-family: "Inter";
+  font-family: "Lora";
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v12/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/lora/v32/0QIvMX1D_JOuMwr7Iw.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 @font-face {
-  font-family: "Inter";
+  font-family: "Lora";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v12/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 800;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v12/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v12/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/lora/v32/0QIvMX1D_JOuMwr7Iw.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 [class^=icon-], [class*=" icon-"], .icon1 {
@@ -409,6 +384,22 @@ iframe {
   content: "\e90c";
 }
 
+.icon-arrow-left:before {
+  content: "\e914";
+}
+
+.icon-arrow-left-circle:before {
+  content: "\e915";
+}
+
+.icon-book-open:before {
+  content: "\e91b";
+}
+
+.icon-calendar:before {
+  content: "\e90d";
+}
+
 .icon-check:before {
   content: "\e900";
 }
@@ -421,12 +412,72 @@ iframe {
   content: "\e902";
 }
 
+.icon-credit-card:before {
+  content: "\e91a";
+}
+
+.icon-edit:before {
+  content: "\e91c";
+}
+
+.icon-home:before {
+  content: "\e921";
+}
+
+.icon-info:before {
+  content: "\e90e";
+}
+
 .icon-lock:before {
   content: "\e903";
 }
 
+.icon-log-in:before {
+  content: "\e90f";
+}
+
+.icon-log-out:before {
+  content: "\e910";
+}
+
+.icon-map-pin:before {
+  content: "\e91d";
+}
+
+.icon-menu:before {
+  content: "\e922";
+}
+
+.icon-minus-square:before {
+  content: "\e91e";
+}
+
 .icon-moon:before {
   content: "\e904";
+}
+
+.icon-paperclip:before {
+  content: "\e911";
+}
+
+.icon-plus-square:before {
+  content: "\e91f";
+}
+
+.icon-printer:before {
+  content: "\e912";
+}
+
+.icon-rotate-ccw:before {
+  content: "\e916";
+}
+
+.icon-skip-back:before {
+  content: "\e917";
+}
+
+.icon-square:before {
+  content: "\e920";
 }
 
 .icon-sun:before {
@@ -439,6 +490,18 @@ iframe {
 
 .icon-sunset:before {
   content: "\e907";
+}
+
+.icon-tag:before {
+  content: "\e913";
+}
+
+.icon-thumbs-down:before {
+  content: "\e918";
+}
+
+.icon-thumbs-up:before {
+  content: "\e919";
 }
 
 .icon-user:before {
@@ -459,14 +522,6 @@ body {
   display: flex;
   flex-direction: column;
   transition: background 1s;
-}
-
-*,
-button,
-.header-button,
-.button,
-input {
-  border-radius: 0;
 }
 
 .Logo1 svg {
@@ -569,6 +624,16 @@ input {
 
 .home-header .header-button {
   border: 1px solid var(--outline0);
+  vertical-align: middle;
+}
+
+.header-button::before {
+  font-family: "Icomoon";
+  content: "\e922";
+}
+
+.header-button::before {
+  margin-right: 1rem;
 }
 
 .homeSplash {
@@ -608,20 +673,36 @@ footer {
   margin-bottom: 1rem;
 }
 
-@media (max-width: 991px) {
-  .home-header .headerEmail {
-    display: none;
-  }
-  a .logo1 {
-    max-width: 250px;
-  }
+.nav-links {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 250px;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  transition: all 0.3s ease;
 }
-@media (max-width: 767px) {
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.nav-links.active {
+  right: 0;
+}
+
+@media (max-width: 768px) {
   .home-header .headerPhone {
     display: none !important;
-  }
-  .logo1 {
-    max-width: 220px;
   }
 }
 

@@ -44,9 +44,6 @@
         </a>
       </div>
       <div class="nav-right navbar">
-        <p class="my-a no-wrap headerEmail">
-        <span>eat@fisherspier.com</span>
-        </p>
         <p class="my-a no-wrap headerPhone">
           <span>(905) 526-9622</span>
         </p> 
@@ -55,9 +52,17 @@
         </div>
       </div>
     </nav>
+    <script>
+      function toggleMenu() {
+          const navLinks = document.querySelector('.nav-links');
+          navLinks.classList.toggle('active');
+      }
+    </script>
     <hr class="topDivide">
     <div class="homeSplash">
-        <p class="splashText">Good Food</p>
+        <p class="splashText">Food</p>
+        <p class="splashText">Drinks</p>
+        <p class="splashText">Friends</p>
     </div>
     <footer class="mx-a p-0 row">
         <p class="m-a p-a col-4">Fishers Pier 4 Pub</p>
