@@ -618,7 +618,7 @@ a:hover {
 
 .home-header {
   margin-top: 10px;
-  height: 100px;
+  min-height: 100px;
   flex-direction: row;
 }
 .home-header .headerPhone {
@@ -652,7 +652,7 @@ a:hover {
 
 .homeSplash {
   width: 100%;
-  height: 100%;
+  min-height: calc(100vh - 120px);
   text-align: center;
   font-weight: bold;
   display: flex;
@@ -687,6 +687,20 @@ footer {
   min-height: 5rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.home2 {
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.home21, .home22 {
+  padding: 24px;
+}
+
+.home21 {
+  border-radius: 20%;
 }
 
 .nav-links {
@@ -750,6 +764,10 @@ footer {
 @media (max-width: 598px) {
   footer {
     margin-bottom: 20px;
+  }
+  .home22 {
+    text-align: center;
+    padding-top: 0;
   }
 }
 @media (max-width: 400px) {
