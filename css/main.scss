@@ -274,6 +274,8 @@ iframe {
 
   --bg-color: var(--gray1);
   --bg-secondary-color: var(--gray2);
+  --bg-color-invert: var(--gray9);
+  --bg-secondary-color-invert: var(--gray8);
   --shadow-color: 220deg 5% 56%;
   --font-color: var(--gray9);
   --font-invert: var(--gray1);
@@ -669,7 +671,8 @@ footer {
 .home2 {
   align-items: center;
   justify-content: center;
-  margin: 0;
+  margin: auto;
+  max-width: 1080px;
 }
 
 .home21, .home22 {
@@ -679,9 +682,46 @@ padding: 24px;
 .home21 {
   border-radius: 20%;
 }
+
+.home22 {
+  font-size: 1.8rem;
+}
+
+.hours1 {
+  background-color: var(--bg-secondary-color-invert);
+  color: var(--font-invert);
+  padding: 24px;
+  text-align: center;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.hours1-in {
+  max-width: 1080px;
+}
+
+.hours12 {
+  & hr {
+    display: none;
+  }
+  & p:first-of-type {
+    padding-top: 24px;
+  }
+}
+
+.hours12 , .hours11 {
+  margin-bottom: 0;
+}
+
+.homeRed {
+  color: var(--color-primary);
+}
+
+.parking {
+  padding-top: 3rem;
+}
 /////////////////////////////////
-
-
 .nav-links {
   position: fixed;
   top: 0;
@@ -749,6 +789,9 @@ padding: 24px;
   .home22 {
     text-align: center;
     padding-top: 0;
+  }
+  .hours12 hr {
+    display: flex;
   }
 }
 
