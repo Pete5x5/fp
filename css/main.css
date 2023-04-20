@@ -743,6 +743,11 @@ footer {
   padding-top: 3rem;
 }
 
+.email1 {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
 .nav-links {
   position: fixed;
   top: 0;
