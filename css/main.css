@@ -836,22 +836,22 @@ footer {
 .menu1 h2 {
   font-family: "Archivo Black", "Lora", sans-serif;
 }
-.menu1 h5 {
+.menu1 h5, .menu1 h6 {
   background-color: var(--amber-200);
   padding-right: 1rem;
   width: fit-content;
 }
-.menu1 h5 a {
+.menu1 h6:hover {
+  background-color: var(--red-100);
+}
+.menu1 h6 a {
   color: var(--font-color);
 }
-.menu1 h5::before {
+.menu1 h6::before {
   content: "\e90e";
   font-family: "Icomoon";
   padding-right: 1rem;
   padding-left: 1rem;
-}
-.menu1 h5:not(a):hover {
-  background-color: var(--red-100);
 }
 
 .menu1 .menuTitle {

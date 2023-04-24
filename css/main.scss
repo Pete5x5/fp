@@ -814,10 +814,15 @@ padding: 24px;
   & h2 {
     font-family: 'Archivo Black', 'Lora', sans-serif;
   }
-  & h5 {
+  & h5, h6 {
     background-color: var(--amber-200);
     padding-right: 1rem;
     width: fit-content;
+  }
+  & h6 {
+    &:hover {
+      background-color: var(--red-100);
+    }
     & a {
       color: var(--font-color);
     }
@@ -826,9 +831,6 @@ padding: 24px;
       font-family: "Icomoon";
       padding-right: 1rem;
       padding-left: 1rem;
-    }
-    &:not(a):hover {
-      background-color: var(--red-100);
     }
   }
 }

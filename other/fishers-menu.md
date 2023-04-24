@@ -142,7 +142,7 @@
 
 # Non-Alcoholic Beverages 
 
-###### [Click here for our beer and alcoholic beverages menu.](/drinks)
+####### [Click here for our beer and alcoholic beverages menu.](/drinks)
 
 ## SODA AND SIMILAR [$3.50]
 ### Pepsi, Diet Pepsi, 7-Up, ginger ale, iced tea, root beer, club soda, tonic water, lemonade.
