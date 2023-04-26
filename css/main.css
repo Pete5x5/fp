@@ -881,6 +881,7 @@ iframe {
   max-width: 1080px;
   justify-content: center;
   align-items: center;
+  margin: auto;
 }
 .location1 .subtitle, .location2 .subtitle {
   font-size: 2.4rem;
