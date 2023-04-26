@@ -749,6 +749,7 @@ padding: 24px;
   padding: 1rem;
   gap: 3rem;
   transition: all 0.3s ease;
+  z-index: 1;
 }
 
 .close-button {
@@ -840,6 +841,13 @@ padding: 24px;
   text-align: center;
   font-weight: bold;
   color: var(--font-color);
+}
+
+.crt-widget-waterfall {
+  padding-left: 15px;
+  padding-right: 15px;
+  min-height: unset !important;
+  z-index: 0;
 }
 
 // vvv MEDIA QUERIES vvv //
