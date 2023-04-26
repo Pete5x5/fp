@@ -869,6 +869,24 @@ footer {
   z-index: 0;
 }
 
+iframe {
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+  border: var(--font-color) solid 1px;
+}
+
+.location1, .location2 {
+  padding: 0 24px;
+  max-width: 1080px;
+  justify-content: center;
+  align-items: center;
+}
+.location1 .subtitle, .location2 .subtitle {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
 @media (max-width: 768px) {
   .home-header .headerPhone {
     display: none !important;
@@ -884,6 +902,9 @@ footer {
   }
   .hours12 hr {
     display: flex;
+  }
+  .location1 {
+    text-align: center;
   }
 }
 @media (max-width: 400px) {
