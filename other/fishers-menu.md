@@ -16,7 +16,7 @@
 
 
 ## MOZZARELLA STICKS [$13.00]
-### Lightly breaded cheese sticks served with a warm marinara sauce.
+### Lightly-breaded cheese sticks served with a warm marinara sauce.
 
 
 ## BUFFALO SHRIMP [$13.00]
@@ -62,12 +62,12 @@
 # Main Event
 
 ## FISH & CHIPS [$20.00]
-### Lightly battered haddock served with fries, tartar, slaw, and lemon.
-#### Gluten free available [$3.00]
+### Lightly-battered haddock served with fries, tartar, slaw, and lemon.
+#### Gluten-free available [$3.00]
 
 
 ## FISHERMAN'S PLATTER [$24.00]
-### Lightly battered haddock with breaded shrimp and scallops. Served with fries and slaw.
+### Lightly-battered haddock with breaded shrimp and scallops. Served with fries and slaw.
 
 
 ## CHICKEN TENDERS [$16.00]
