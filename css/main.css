@@ -842,17 +842,17 @@ footer {
   padding-right: 1rem;
   width: fit-content;
 }
+.menu1 h5::before, .menu1 h6::before {
+  content: "\e90e";
+  font-family: "Icomoon";
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
 .menu1 h6:hover {
   background-color: var(--red-100);
 }
 .menu1 h6 a {
   color: var(--font-color);
-}
-.menu1 h6::before {
-  content: "\e90e";
-  font-family: "Icomoon";
-  padding-right: 1rem;
-  padding-left: 1rem;
 }
 
 .menu1 .menuTitle {

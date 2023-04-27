@@ -819,6 +819,12 @@ padding: 24px;
     background-color: var(--amber-200);
     padding-right: 1rem;
     width: fit-content;
+    &::before {
+      content: "\e90e";
+      font-family: "Icomoon";
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
   }
   & h6 {
     &:hover {
@@ -826,12 +832,6 @@ padding: 24px;
     }
     & a {
       color: var(--font-color);
-    }
-    &::before {
-      content: "\e90e";
-      font-family: "Icomoon";
-      padding-right: 1rem;
-      padding-left: 1rem;
     }
   }
 }
