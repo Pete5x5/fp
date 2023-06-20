@@ -39,8 +39,35 @@
 ## THE BULLDOG MARGARITA
 ### Tequila, lime and lemon bar mix, fresh limes, sriracha and a splash of beer. Served in a glass rimmed with Tajin. 
 
+## PIÑA COLADA
+### Malibu rum and coconut syrup blended to perfection.  Topped with whipped cream and a cherry.
+
+## TITO'S JALAPEÑO LAMONADE SPRITZER
+### Tito's vodka, lemonade, and jalapeño slices.  Topped with soda water.
+
+## ORANGE ROSEMARY GIN & TONIC
+### Tanqueray gin, orange juice, tonic, and a fresh sprig of rosemary.
+
+## STRAWBERRY FROSÉ
+### Bask Crisp Rose and strawberries blended to perfection.
+
+# Mocktails (*non-alcoholic*)
+
+## JALAPEÑO LAMONADE SPRITZER
+### Lemonade and jalapeño slices.  Topped with soda water.
+
+## FRESH MINT MOJITOS
+### Limes, mint, and Dannial's homemade mojito syrup. Topped with soda water. (*seasonal*)
+
+## DAIQUIRI
+### Choice of lime, mango, raspberry, strawberry, or peach.
+
+## ROSEMARY CUCUMBER LIME REFRESHER
+### Limeaid, cucumber slices, fresh roseamry, and a splash of soda.
+
 # Beer on Tap
 
+## FISHER'S PIER 4 PUB PILSNER
 ## LAGER SHED
 ## RANSACK (Collective Arts)
 ## COORS BANQUET
@@ -51,6 +78,7 @@
 ## SUB ZERO COORS LIGHT
 ## HEINEKEN
 ## MURPHY'S STOUT
+## CREEMORE SPRINGS
 
 # Bottles
 
@@ -63,6 +91,8 @@
 ## MILLER LITE
 ## SOL
 ## MOLSON ULTRA
+## CARLSBERG (*tallcan*)
+## CARLSBERG LITE (*tallcan*)
 
 # Cider Tallcans
 
@@ -71,13 +101,12 @@
 ## SOMERSBY BLACK RHUBARB
 ## SOMERSBY PEAR
 ## SOMERSBY APPLE
+## SOMERSBY MANGO LIME
 
 # Coolers
 
 ## SMIRNOFF ICE
-## VIZZY HARD SELTZER
-## PINEAPPLE MANGO
-## BLUEBERRY POMEGRANITE
+## TWISTED TEA ORIGINAL
 
 # White Wine
 
@@ -86,18 +115,20 @@
 ## JACKSON TRIGGS SAUVIGNON BLANC
 ## OPEN VIDAL / RIESLING
 ## RUFFINO PINOT GRIGIO (Italy)
+## WOODBRIDGE PINOT GRIGIO
 
 # Red Wine
 
 ## JACKSON TRIGGS MERLOT
 ## JACKSON TRIGGS CABERNET / FRANC
 ## CLIFF 79 CHIRAZ / CABERNET
-## ROBERT MONDAVI PINOT NOIR
-## DREAMING TREE CABERNET SAUVIGNON
+## TOM GORE CABERNET SAUVIGNON
+## WOODBRIDGE CABERNET SAUVIGNON
+## OPEN SELECT SMOOTH RED
 
 # Rose Wine
 
-## WHITE ZINFANDEL (Woodbridge) 
+## BASK WINES CRISP ROSE (*keto friendly*)
 
 # Sangria
 
@@ -107,5 +138,5 @@
 ## RED SANGRIA
 ### Made with VQA open cabernet franc, red cranberry juice, soda, and fresh fruit.
 
-## WHITE BERRY SANGRIA
+## FRESH BERRY MOSCATO SANGRIA
 ### Fresh Moscato, white cranberry juice, soda, and fresh berries.
