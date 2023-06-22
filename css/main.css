@@ -743,7 +743,8 @@ footer {
 }
 
 .homeRed {
-  color: var(--color-primary);
+  color: var(--red-400);
+  font-weight: bold;
 }
 
 .parking {

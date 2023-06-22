@@ -22,7 +22,7 @@
     <nav data-role="Header" class="home-header nav m-0">
       <div class="nav-left m-a first-header" aria-label="Fisher's Pier 4 home page">
         <a class="brand Logo1" href="/fp" aria-label="Fishers home page">
-          <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="811.000000pt" height="246.000000pt" viewBox="0 0 811.000000 246.000000" preserveAspectRatio="xMidYMid meet">
+          <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="811.000000pt" height="246.000000pt" viewBox="0 0 811.000000 246.000000" preserveAspectRatio="xMidYMid meet" alt="Fisher's Pier 4 Pub logo" aria-label="Fisher's Pier 4 Pub logo">
             <g transform="translate(0.000000,246.000000) scale(0.100000,-0.100000)">
             <path class="svgFishers" d="M1672 2429 c-143 -72 -148 -291 -8 -344 90 -35 183 0 226 85 25 49 27 138 4 187 -39 82 -139 114 -222 72z"/>
             <path class="svgFishers" d="M6880 2429 c-69 -28 -114 -107 -108 -187 4 -47 10 -60 40 -87 35 -33 107 -53 141 -39 50 19 -19 -198 -102 -321 l-30 -44 40 -32 c39 -31 40 -31 61 -13 36 33 136 194 169 272 72 175 69 344 -8 414 -47 43 -144 60 -203 37z"/>
@@ -50,11 +50,11 @@
           <span>(905) 526-9622</span>
         </a> 
         <div class="last-header my-a mx-0">
-          <a class="button primary mx-0 no-wrap header-button" onclick="toggleMenu()">Menu</a>
+          <a class="button primary mx-0 no-wrap header-button" onclick="toggleMenu()" onkeydown="toggleMenu()" tabindex=0>Menu</a>
         </div>
       </div>
       <div class="nav-links">
-        <div class="close-button" onclick="toggleMenu()">&times;</div>
+        <div class="close-button" onclick="toggleMenu()" onkeydown="toggleMenu()" tabindex=0>&times;</div>
         <a class="nav-link" href="menu">Menu</a>
         <a class="nav-link" href="drinks">Drinks</a>
         <a class="nav-link" href="gallery">Gallery</a>
@@ -81,7 +81,7 @@
         <p class="splashText">Friends</p>
     </div>
     <div class="home2 row">
-      <img class="home21 col-6" src="public/drink1.webp">
+      <img class="home21 col-6" src="public/drink1.webp" alt="Picture of a cocktail">
       <p class="home22 col-6">Enjoy our outstanding selection of beer on-tap, cocktails, and delicious fresh-made pub fare.</p>
     </div>
     <div class="hours1 row">
