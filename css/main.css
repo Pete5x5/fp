@@ -542,12 +542,14 @@ a:hover {
 }
 
 .Logo1 svg {
-  max-width: 200px;
+  max-width: 250px;
   height: auto;
 }
 
 .svgFishers {
   fill: var(--color-primary);
+  stroke: black;
+  stroke-width: 24px;
 }
 
 .svgPier {
