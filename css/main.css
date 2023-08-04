@@ -709,6 +709,13 @@ footer {
   justify-content: center;
   margin: auto;
   max-width: 1080px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+.home23 {
+  max-width: 80vw;
+  margin: auto;
 }
 
 .home21, .home22 {
