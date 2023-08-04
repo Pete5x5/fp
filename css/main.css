@@ -674,11 +674,11 @@ a:hover {
   flex-direction: column;
   flex-grow: 1;
   justify-content: center;
-  background-image: url("../public/burger1.webp");
+  background-image: url("../public/bg1.webp");
   background-clip: padding-box;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: right 0;
+  background-position: center;
 }
 
 .splashText {
@@ -714,8 +714,8 @@ footer {
 }
 
 .home23 {
-  max-width: 80vw;
-  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .home21, .home22 {
@@ -902,7 +902,7 @@ iframe {
 }
 
 .home20 {
-  font-size: 1.6rem;
+  font-size: 2.4rem;
   padding-left: 5vw;
   padding-right: 5vw;
   text-align: center;
@@ -912,6 +912,9 @@ iframe {
 @media (max-width: 768px) {
   .home-header .headerPhone {
     display: none !important;
+  }
+  .home23 {
+    max-width: 40vw;
   }
 }
 @media (max-width: 598px) {
@@ -927,6 +930,9 @@ iframe {
   }
   .location1 {
     text-align: center;
+  }
+  .home20 {
+    font-size: 1.6rem;
   }
 }
 @media (max-width: 400px) {
