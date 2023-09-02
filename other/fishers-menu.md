@@ -45,7 +45,7 @@
 ### Gourmet onion rings served with our mexi-ranch dipping sauce.
 
 
-## CLASSIC CAESAR CALAD [$13.00]
+## CLASSIC CAESAR SALAD [$13.00]
 
 
 ## GREEK SALAD [$13.50]
@@ -88,7 +88,7 @@
 # That's a Wrap
 ### Served with choice of fries, house salad, or coleslaw.
 ### Whole grain, white, or sun-dried tomato wraps available.
-#### Substitute Greek Caesar salad, or sweet potato fries [$4.00]
+#### Substitute Greek salad, Caesar salad, or sweet potato fries [$4.00]
 
 ## CHICKEN CLUB WRAP [$16.00]
 ### Grilled chicken with bacon, cheese, lettuce, tomato, and mayo.

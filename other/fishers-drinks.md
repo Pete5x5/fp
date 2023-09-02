@@ -42,7 +42,7 @@
 ## PIÑA COLADA
 ### Malibu rum and coconut syrup blended to perfection.  Topped with whipped cream and a cherry.
 
-## TITO'S JALAPEÑO LAMONADE SPRITZER
+## TITO'S JALAPEÑO LEMONADE SPRITZER
 ### Tito's vodka, lemonade, and jalapeño slices.  Topped with soda water.
 
 ## ORANGE ROSEMARY GIN & TONIC
@@ -53,7 +53,7 @@
 
 # Mocktails (*non-alcoholic*)
 
-## JALAPEÑO LAMONADE SPRITZER
+## JALAPEÑO LEMONADE SPRITZER
 ### Lemonade and jalapeño slices.  Topped with soda water.
 
 ## FRESH MINT MOJITOS
@@ -63,7 +63,7 @@
 ### Choice of lime, mango, raspberry, strawberry, or peach.
 
 ## ROSEMARY CUCUMBER LIME REFRESHER
-### Limeaid, cucumber slices, fresh roseamry, and a splash of soda.
+### Limeaid, cucumber slices, fresh rosemary, and a splash of soda.
 
 # Beer on Tap
 
