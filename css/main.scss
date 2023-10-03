@@ -892,6 +892,13 @@ iframe {
   padding-top: 24px;
 }
 
+.cPic {
+  width: auto;
+  min-width: 188px;
+  max-width: calc(30% - var(--grid-gutter));
+  height: auto;
+}
+
 // vvv MEDIA QUERIES vvv //
 @media (max-width: 768px) {
   .home-header .headerPhone {
