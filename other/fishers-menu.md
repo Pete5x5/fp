@@ -76,7 +76,7 @@
 
 
 ## BARON OF BEEF [20.00]
-### A large yorkshire pudding bowl stuffed with our in-house braised beef topped with garlic mashed motatoes, gravy, and crispy onions.
+### A large yorkshire pudding bowl stuffed with our in-house braised beef topped with garlic mashed potatoes, gravy, and crispy onions.
 
 
 ## GRILLED SOUVLAKI DINNER [$20.00]
@@ -105,7 +105,7 @@
 # Between the Buns
 ### Served with choice of fries, house salad, or coleslaw.
 #### Substitute our veggie burger at no charge.
-#### Substitute Greek Caesar salad, or sweet potato fries [$4.00]
+#### Substitute Greek salad, Caesar salad, or sweet potato fries [$4.00]
 
 ## HAMBURGER [$16.00]
 ### Our homemade patty topped with your choice of lettuce, tomato, and red onion.
